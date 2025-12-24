@@ -1,0 +1,107 @@
+================================================================================
+                  MANUAL DE USUARIO - SISTEMA HAUS BURGER POS
+================================================================================
+
+1. INTRODUCCIÓN
+--------------------------------------------------------------------------------
+Bienvenido al sistema de Punto de Venta (POS) de Haus Burger. Esta aplicación 
+permite gestionar la toma de pedidos, control de inventario en tiempo real, 
+impresión de tickets y reportes financieros, optimizada para uso en escritorio 
+y dispositivos móviles.
+
+
+2. INGRESO AL SISTEMA
+--------------------------------------------------------------------------------
+Para comenzar a operar:
+1. Ingrese su Correo Electrónico y Contraseña en la pantalla de inicio.
+2. Presione "Ingresar".
+3. El sistema cargará la interfaz correspondiente a su rol (Cajero o Admin).
+
+
+3. MÓDULO DE PUNTO DE VENTA (CAJA)
+--------------------------------------------------------------------------------
+Esta es la pantalla principal para registrar ventas.
+
+A. BÚSQUEDA Y FILTROS
+   - Buscador: Escriba el nombre del producto en la barra superior.
+   - Categorías: Use los botones (ej. Hamburguesas, Bebidas) para filtrar.
+
+B. SELECCIÓN DE PRODUCTOS
+   - Cada tarjeta muestra el precio y el STOCK disponible en tiempo real.
+   - Si un producto comparte insumos (ej. Carne), el stock se ajusta 
+     automáticamente para todos los productos que usen ese ingrediente.
+   - Botones:
+     [Agregar]: Añade una unidad al carrito.
+     [-] y [+]: Ajusta la cantidad si el producto ya está seleccionado.
+   - Si el stock llega a 0, el producto se bloquea y muestra "Agotado".
+
+C. CARRITO DE COMPRAS
+   - En móviles, presione el botón flotante "Revisar Pedido" o "Ver Carrito".
+   - Verifique la lista de ítems y el monto total.
+   - Seleccione la Forma de Pago:
+     ( ) Efectivo
+     ( ) QR / Banco
+   - Presione "CONFIRMAR VENTA" para finalizar. Esto descuenta el stock 
+     y registra la transacción.
+
+
+4. MÓDULO DE PEDIDOS DEL DÍA
+--------------------------------------------------------------------------------
+Permite gestionar las transacciones del turno actual.
+
+A. ESTADOS Y FILTROS
+   - Use los botones superiores para ver: Todos, Pagados (Verde) o Anulados (Rojo).
+
+B. REIMPRESIÓN DE TICKETS
+   - Busque el pedido en la lista.
+   - Presione el botón "Ticket" para volver a imprimir el recibo.
+
+C. ANULACIÓN DE VENTAS
+   - Si hubo un error, presione el botón rojo "Anular".
+   - El sistema pedirá confirmación.
+   - Al confirmar: La venta se cancela, el dinero se resta del reporte y 
+     los productos vuelven al inventario (stock) automáticamente.
+
+
+5. REPORTE DE CIERRE DE CAJA (CAJERO)
+--------------------------------------------------------------------------------
+Utilice esta pantalla al finalizar su turno.
+
+A. RESUMEN FINANCIERO
+   - Venta Total Neta: Total vendido (sin contar anulaciones).
+   - Total Efectivo: Dinero que debe haber en el cajón.
+   - Total QR / Banco: Dinero ingresado digitalmente.
+
+B. ESTADÍSTICAS
+   - Muestra la cantidad de pedidos exitosos y anulados.
+   - Ranking de los 5 productos más vendidos del día.
+
+C. ACTUALIZACIÓN
+   - Presione el botón "Actualizar" para refrescar los datos sin salir.
+
+
+6. PANEL ADMINISTRATIVO (SOLO ADMIN)
+--------------------------------------------------------------------------------
+Acceso a reportes avanzados e históricos.
+
+A. RANGOS DE FECHA
+   - Seleccione: Hoy, Esta Semana, Este Mes o un Rango Personalizado.
+
+B. EXPORTACIÓN
+   - Presione el botón "Excel" para descargar una hoja de cálculo detallada 
+     con todas las transacciones y movimientos de productos del periodo.
+
+
+7. SOLUCIÓN DE PROBLEMAS FRECUENTES
+--------------------------------------------------------------------------------
+- "Sin stock suficiente": El sistema protege el inventario. Si tiene el producto
+  físicamente, solicite al administrador que ajuste el stock en el sistema.
+
+- Error al imprimir: Verifique que la impresora térmica esté encendida y 
+  conectada. El sistema usa el diálogo de impresión del navegador.
+
+- No cargan los datos: Verifique su conexión a internet y recargue la página.
+
+================================================================================
+Generado automáticamente para Haus Burger POS
+================================================================================
