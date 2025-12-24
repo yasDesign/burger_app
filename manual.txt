@@ -1,3 +1,5 @@
+VITE_SUPABASE_URL=https://mwkuaobfqkoezhrilzqp.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_SpKHAGP8aL80k_VRle_Chg_yxtWvzq6
 ================================================================================
                   MANUAL DE USUARIO - SISTEMA HAUS BURGER POS
 ================================================================================
